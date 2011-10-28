@@ -1,2 +1,2 @@
 include README.rst
-recursive-include metron/templates/metron *.html
+recursive-include metron/templates *.html
