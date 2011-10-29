@@ -5,14 +5,15 @@ from django.conf import settings
 register = template.Library()
 
 
-@register.simple_tag
-def analytics():
+@register.simple_tag(takes_context=True)
+def analytics(context):
     content = ""
     for kind, codes in getattr(settings, "METRON_SETTINGS", {}).items():
         code = codes.get(settings.SITE_ID)
         if code is not None:
             t = template.loader.get_template("metron/_%s.html" % kind)
             content += t.render(template.Context({
-                "code": code
+                "code": code,
+                "user": context["user"],
             }))
     return content
