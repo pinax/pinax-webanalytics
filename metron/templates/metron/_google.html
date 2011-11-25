@@ -4,6 +4,13 @@
     _gaq.push(['_trackPageview']);
     _gaq.push(['_trackPageLoadTime']);
     // _gaq.push(['_setCustomVar', 1, 'Authentication Type', ut, 2]);
+    {% for action in actions %}
+        _gaq.{{ action.method }}(
+            {% for arg in action.args %}
+                {{ arg|safe }}{% if forloop.last %}{% else %}, {% endif %}
+            {% endfor %}
+        );
+    {% endfor %}
     
     (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;

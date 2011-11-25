@@ -1,6 +1,8 @@
 from django import template
 from django.conf import settings
 
+from metron import activity
+
 
 register = template.Library()
 
@@ -15,5 +17,6 @@ def analytics(context):
             content += t.render(template.Context({
                 "code": code,
                 "user": context["user"],
+                "actions": activity.all(context["request"], kind)
             }))
     return content
