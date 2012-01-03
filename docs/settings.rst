@@ -5,13 +5,28 @@ Settings
 
 .. _metron_settings:
 
+METRON_ANALYTICS_SETTINGS
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This sets the conversion identifiers for AdWords for the conversions
+you want to track indexed by page specific keys::
+
+    METRON_ANALYTICS_SETTINGS = {
+        "waitinglist": {
+            "conversion_id": "",
+            "conversion_label": "",
+            "conversion_format": ""
+        }
+    }
+
+
 METRON_SETTINGS
 ^^^^^^^^^^^^^^^
 
 This is a data structure defining your analytics and metrics settings
 indexed by `SITE_ID`. Example::
 
-    ANALYTICS_SETTINGS = {
+    METRON_SETTINGS = {
         "mixpanel": {
             "1": "", # production
             "2": "", # beta

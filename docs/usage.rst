@@ -29,3 +29,13 @@ determined by simply a certain page view.
 The parameters for this are the request, the kind, then the method that
 is used on the kind's javascript API, followed by a list of args that
 will be passed to that javascript API.
+
+
+AdWords Converstion Tracking
+----------------------------
+
+::
+    {% load metron_tags %}
+    
+    {% adwords_conversion "waitinglist" %}
+

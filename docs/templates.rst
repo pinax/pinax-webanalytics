@@ -26,3 +26,9 @@ _mixpanel.html
 --------------
 
 This snippet is used for Mixpanel
+
+
+_adwords_conversion.html
+------------------------
+
+This snippet is used by the `adwords_conversion` template tag

@@ -20,3 +20,17 @@ def analytics(context):
                 "actions": activity.all(context["request"], kind)
             }))
     return content
+
+
+@register.simple_tag(takes_context=True)
+def adwords_conversion(context, key):
+    content = ""
+    page_ids = getattr(settings, "METRON_ADWORDS_SETTINGS", {}).get(key)
+    if page_ids:
+        t = template.loader.get_template("metron/_adwords_conversion.html")
+        content = t.render(template.Context({
+            "conversion_id": page_ids["conversion_id"],
+            "conversion_format": page_ids["conversion_format"],
+            "conversion_label": page_ids["conversion_label"]
+        }))
+    return content
