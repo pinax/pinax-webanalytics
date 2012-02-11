@@ -10,7 +10,7 @@ template under the `metron` folder in your templates directory. The format is
 `"_%s.html" % slug` where the slug is what index the `METRON_SETTINGS` dict with.
 
 
-_guages.html
+_gauges.html
 ------------
 
 This snippet is used for gaug.es
