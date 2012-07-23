@@ -5,13 +5,13 @@ Settings
 
 .. _metron_settings:
 
-METRON_ANALYTICS_SETTINGS
-^^^^^^^^^^^^^^^^^^^^^^^^^
+METRON_ADWORDS_SETTINGS
+^^^^^^^^^^^^^^^^^^^^^^^
 
 This sets the conversion identifiers for AdWords for the conversions
 you want to track indexed by page specific keys::
 
-    METRON_ANALYTICS_SETTINGS = {
+    METRON_ADWORDS_SETTINGS = {
         "waitinglist": {
             "conversion_id": "",
             "conversion_label": "",
