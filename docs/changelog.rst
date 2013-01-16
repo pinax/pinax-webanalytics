@@ -3,6 +3,11 @@
 ChangeLog
 =========
 
+1.1
+---
+
+- SITE_ID is now always treated as an int on lookup so the keys in METRON_SETTINGS must be ints
+
 1.0
 ---
 
