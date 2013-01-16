@@ -40,5 +40,7 @@ indexed by `SITE_ID`. Example::
         }
     }
 
-Where the values you would supply for each service + `SITE_ID` node
+where the values you would supply for each service and ``SITE_ID`` node
 is the identifier code for that service.
+
+Note that, as of 1.1, the ``SITE_ID`` keys *must* be integers, not strings.

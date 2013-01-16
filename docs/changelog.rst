@@ -6,7 +6,10 @@ ChangeLog
 1.1
 ---
 
-- SITE_ID is now always treated as an int on lookup so the keys in METRON_SETTINGS must be ints
+- ``SITE_ID`` is now always treated as an int on lookup so the keys in
+  ``METRON_SETTINGS`` must be ints
+- analytics template tag now bails out silently if ``user`` or ``request`` are
+  missing from context
 
 1.0
 ---
