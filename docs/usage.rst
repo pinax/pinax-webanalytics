@@ -31,11 +31,16 @@ is used on the kind's javascript API, followed by a list of args that
 will be passed to that javascript API.
 
 
-AdWords Converstion Tracking
+AdWords Conversion Tracking
 ----------------------------
 
-::
+Load the template tags as above::
+
     {% load metron_tags %}
+
+then toward the bottom of the body, include::
     
     {% adwords_conversion "waitinglist" %}
 
+where the argument passed to ``adwords_conversion`` is the key used in
+``METRON_ADWORDS_SETTINGS`` to provide the conversion id, label and format.
