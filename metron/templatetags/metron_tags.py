@@ -12,7 +12,7 @@ def analytics(context):
     content = ""
     for kind, codes in getattr(settings, "METRON_SETTINGS", {}).items():
         code = codes.get(settings.SITE_ID)
-        if code is not None:
+        if code is not None and "user" in context and "request" in context:
             t = template.loader.get_template("metron/_%s.html" % kind)
             content += t.render(template.Context({
                 "code": code,
