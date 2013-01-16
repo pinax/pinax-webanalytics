@@ -99,7 +99,7 @@ def find_package_data(
                         break
                 if bad_name:
                     continue
-                out.setdefault(package, []).append(prefix+name)
+                out.setdefault(package, []).append(prefix + name)
     return out
 
 
@@ -134,4 +134,3 @@ setup(
     ],
     zip_safe=False
 )
-
