@@ -28,15 +28,15 @@ indexed by `SITE_ID`. Example::
 
     METRON_SETTINGS = {
         "mixpanel": {
-            "1": "", # production
-            "2": "", # beta
+            1: "", # production
+            2: "", # beta
         },
         "google": {
-            "1": "", # production
-            "2": "", # beta
+            1: "", # production
+            2: "", # beta
         },
         "gauges": {
-            "1": "",
+            1: "",
         }
     }
 
