@@ -3,6 +3,12 @@
 ChangeLog
 =========
 
+1.2
+---
+
+- Upgraded mixpanel
+
+
 1.1
 ---
 
