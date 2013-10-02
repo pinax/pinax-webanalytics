@@ -24,7 +24,7 @@ METRON_SETTINGS
 ^^^^^^^^^^^^^^^
 
 This is a data structure defining your analytics and metrics settings
-indexed by `SITE_ID`. Example::
+indexed by ``settings.SITE_ID`` (or ``request.metron_site_id``.) Example::
 
     METRON_SETTINGS = {
         "mixpanel": {
@@ -40,7 +40,7 @@ indexed by `SITE_ID`. Example::
         }
     }
 
-where the values you would supply for each service and ``SITE_ID`` node
-is the identifier code for that service.
+where the values you would supply for each service and ``SITE_ID`` (or
+``request.metron_site_id``) node is the identifier code for that service.
 
-Note that, as of 1.1, the ``SITE_ID`` keys *must* be integers, not strings.
+Note that, as of 1.1, the site ID keys *must* be integers, not strings.

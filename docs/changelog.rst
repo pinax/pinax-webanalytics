@@ -3,6 +3,12 @@
 ChangeLog
 =========
 
+1.3
+---
+
+- site ID keys in METRON_SETTINGS can reference the value stored in
+  ``request.metron_site_id`` (useful for multi-tenancy setups)
+
 1.2
 ---
 
