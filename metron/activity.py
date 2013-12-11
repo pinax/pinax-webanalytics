@@ -1,5 +1,6 @@
+import json
+
 from django.conf import settings
-from django.utils import simplejson as json
 
 
 SESSION_KEY_NAME = getattr(settings, "METRON_ACTIVITY_SESSION_KEY_NAME", "_metron_activity")
