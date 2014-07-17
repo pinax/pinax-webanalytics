@@ -2,6 +2,21 @@
 Metron
 ======
 
+.. image:: https://img.shields.io/travis/eldarion/metron.svg
+    :target: https://travis-ci.org/eldarion/metron
+
+.. image:: https://img.shields.io/coveralls/eldarion/metron.svg
+    :target: https://coveralls.io/r/eldarion/metron
+
+.. image:: https://img.shields.io/pypi/dm/metron.svg
+    :target:  https://pypi.python.org/pypi/metron/
+
+.. image:: https://img.shields.io/pypi/v/metron.svg
+    :target:  https://pypi.python.org/pypi/metron/
+
+.. image:: https://img.shields.io/badge/license-BSD-blue.svg
+    :target:  https://pypi.python.org/pypi/metron/
+
 
 Current analytics services supported:
 
