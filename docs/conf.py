@@ -1,4 +1,5 @@
-import sys, os
+import os
+import sys
 
 extensions = []
 templates_path = []
@@ -11,8 +12,8 @@ pygments_style = 'sphinx'
 html_theme = 'default'
 htmlhelp_basename = 'metrondoc'
 latex_documents = [
-  ('index', 'metron.tex', u'metron Documentation',
-   u'Eldarion', 'manual'),
+    ('index', 'metron.tex', u'metron Documentation',
+     u'Eldarion', 'manual'),
 ]
 man_pages = [
     ('index', 'metron', u'metron Documentation',
