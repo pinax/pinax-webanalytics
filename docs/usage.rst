@@ -16,7 +16,7 @@ If you want to add certain specific activities you can use the activity
 API in `metron` like so::
 
     from metron import activity
-    
+
     activity.add(request, "mixpanel", "track", "Node Viewed", {
         "node": self.get_object().title,
         "user": request.user.username
@@ -39,7 +39,7 @@ Load the template tags as above::
     {% load metron_tags %}
 
 then toward the bottom of the body, include::
-    
+
     {% adwords_conversion "waitinglist" %}
 
 where the argument passed to ``adwords_conversion`` is the key used in
