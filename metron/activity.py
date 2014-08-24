@@ -19,7 +19,7 @@ def all(request, kind):
                 if isinstance(action["args"][i], dict):
                     action["args"][i] = json.dumps(action["args"][i])
                 else:
-                    action["args"][i] = repr(action["args"][i])
+                    action["args"][i] = '"%s"' % action["args"][i]
     return actions
 
 
