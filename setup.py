@@ -13,9 +13,9 @@ def read(*parts):
 PACKAGE = "metron"
 NAME = "metron"
 DESCRIPTION = "analytics and metrics integration for Django"
-AUTHOR = "Eldarion"
-AUTHOR_EMAIL = "developers@eldarion.com"
-URL = "http://github.com/eldarion/metron"
+AUTHOR = "Pinax Team"
+AUTHOR_EMAIL = "team@pinaxproject.com"
+URL = "http://github.com/pinax/metron"
 
 
 setup(

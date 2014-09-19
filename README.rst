@@ -3,10 +3,10 @@ Metron
 ======
 
 .. image:: https://img.shields.io/travis/pinax/metron.svg
-    :target: https://travis-ci.org/eldarion/metron
+    :target: https://travis-ci.org/pinax/metron
 
 .. image:: https://img.shields.io/coveralls/pinax/metron.svg
-    :target: https://coveralls.io/r/eldarion/metron
+    :target: https://coveralls.io/r/pinax/metron
 
 .. image:: https://img.shields.io/pypi/dm/metron.svg
     :target:  https://pypi.python.org/pypi/metron/
