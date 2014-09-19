@@ -1,0 +1,4 @@
+[run]
+source = metron
+omit = metron/tests/*
+branch = 1

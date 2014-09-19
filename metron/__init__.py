@@ -1,2 +1,4 @@
-# following PEP 386
-__version__ = "1.3.3"
+import pkg_resources
+
+
+__version__ = pkg_resources.get_distribution("metron").version
