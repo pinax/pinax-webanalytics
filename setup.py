@@ -24,7 +24,7 @@ setup(
     description=DESCRIPTION,
     name=PACKAGE,
     long_description=read("README.rst"),
-    version="1.3.4",
+    version="1.3.5",
     url="http://metron.rtfd.org/",
     license="MIT",
     packages=find_packages(),
