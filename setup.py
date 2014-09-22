@@ -28,6 +28,14 @@ setup(
     url="http://metron.rtfd.org/",
     license="MIT",
     packages=find_packages(),
+    package_data={
+        "metron": [
+            "templates/metron/_adwords_conversion.html",
+            "templates/metron/_gauges.html",
+            "templates/metron/_google.html",
+            "templates/metron/_mixpanel.html",
+        ]
+    },
     test_suite="runtests.runtests",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
