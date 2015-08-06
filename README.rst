@@ -2,6 +2,9 @@
 Metron
 ======
 
+.. image:: http://slack.pinaxproject.com/badge.svg
+   :target: http://slack.pinaxproject.com/
+
 .. image:: https://img.shields.io/travis/pinax/metron.svg
     :target: https://travis-ci.org/pinax/metron
 
