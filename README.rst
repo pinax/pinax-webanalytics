@@ -47,7 +47,7 @@ Current analytics services supported:
 Documentation
 -------------
 
-The metron documentation can be found online at http://metron.readthedocs.org/.
+The ``metron`` documentation can be found online at http://metron.readthedocs.org/.
 The Pinax documentation is available at http://pinaxproject.com/pinax/.
 
 
