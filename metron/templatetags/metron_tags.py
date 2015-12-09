@@ -1,5 +1,6 @@
 from django import template
 from django.conf import settings
+from django.utils.safestring import mark_safe
 
 from metron import activity
 
@@ -20,7 +21,7 @@ def analytics(context):
                 "user": context["user"],
                 "actions": activity.all(context["request"], kind)
             }))
-    return content
+    return mark_safe(content)
 
 
 @register.simple_tag(takes_context=True)
@@ -34,4 +35,4 @@ def adwords_conversion(context, key):
             "conversion_format": page_ids["conversion_format"],
             "conversion_label": page_ids["conversion_label"]
         }))
-    return content
+    return mark_safe(content)
