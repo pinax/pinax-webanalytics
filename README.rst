@@ -1,24 +1,24 @@
 ======
-Metron
+Pinax Web Analytics
 ======
 
 .. image:: http://slack.pinaxproject.com/badge.svg
    :target: http://slack.pinaxproject.com/
 
-.. image:: https://img.shields.io/travis/pinax/metron.svg
-    :target: https://travis-ci.org/pinax/metron
+.. image:: https://img.shields.io/travis/pinax/pinax-webanalytics.svg
+    :target: https://travis-ci.org/pinax/pinax-webanalytics
 
-.. image:: https://img.shields.io/coveralls/pinax/metron.svg
-    :target: https://coveralls.io/r/pinax/metron
+.. image:: https://img.shields.io/coveralls/pinax/pinax-webanalytics.svg
+    :target: https://coveralls.io/r/pinax/pinax-webanalytics
 
-.. image:: https://img.shields.io/pypi/dm/metron.svg
-    :target:  https://pypi.python.org/pypi/metron/
+.. image:: https://img.shields.io/pypi/dm/pinax-webanalytics.svg
+    :target:  https://pypi.python.org/pypi/pinax-webanalytics/
 
-.. image:: https://img.shields.io/pypi/v/metron.svg
-    :target:  https://pypi.python.org/pypi/metron/
+.. image:: https://img.shields.io/pypi/v/pinax-webanalytics.svg
+    :target:  https://pypi.python.org/pypi/pinax-webanalytics/
 
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg
-    :target:  https://pypi.python.org/pypi/metron/
+    :target:  https://pypi.python.org/pypi/pinax-webanalytics/
     
 
 Pinax
