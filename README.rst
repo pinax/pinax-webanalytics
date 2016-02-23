@@ -30,10 +30,10 @@ This collection can be found at http://pinaxproject.com.
 This app was developed as part of the Pinax ecosystem but is just a Django app and can be used independently of other Pinax apps.
 
 
-metron
+pinax-webanalytics 
 --------
 
-``metron`` provides analytics and metrics integration for Django.
+``pinax-webanalytics`` provides analytics and metrics integration for Django.
 
 
 Current analytics services supported:
@@ -47,7 +47,7 @@ Current analytics services supported:
 Documentation
 -------------
 
-The ``metron`` documentation can be found online at http://metron.readthedocs.org/.
+The ``pinax-webanalytics`` documentation can be found online at http://metron.readthedocs.org/.
 The Pinax documentation is available at http://pinaxproject.com/pinax/. If you would like to help us improve our documentation or write more documentation, please join our Pinax Project Slack channel and let us know!
 
 
