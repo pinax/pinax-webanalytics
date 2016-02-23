@@ -13,10 +13,10 @@ def read(*parts):
 setup(
     author="Pinax Team",
     author_email="team@pinaxproject.com",
-    description="analytics and metrics integration for Django",
+    description="web analytics and metrics integration for Django",
     name="pinax-webanalytics",
     long_description=read("README.rst"),
-    version="1.3.7",
+    version="2.0.0",
     url="http://github.com/pinax/pinax-webanalytics",
     license="MIT",
     packages=find_packages(),
