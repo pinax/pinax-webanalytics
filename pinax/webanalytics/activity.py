@@ -3,7 +3,7 @@ import json
 from django.conf import settings
 
 
-SESSION_KEY_NAME = getattr(settings, "METRON_ACTIVITY_SESSION_KEY_NAME", "_metron_activity")
+SESSION_KEY_NAME = getattr(settings, "PINAX_WEBANALYTICS_ACTIVITY_SESSION_KEY_NAME", "_pwa_activity")
 
 
 def _key_name(kind):

@@ -1,0 +1,13 @@
+site_name: pinax-webanalytics
+pages:
+- [index.md, Home]
+- [installation.md, Installation]
+- [usage.md, Usage]
+- [settings.md, Settings]
+- [templates.md, Templates]
+- [changelog.md, Change Log]
+theme: readthedocs
+repo_url: https://github.com/pinax/pinax-webanalytics
+site_description: "web analytics and metrics integration for Django"
+site_author: "Pinax Team"
+markdown_extensions: [admonition]

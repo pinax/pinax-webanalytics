@@ -10,30 +10,22 @@ def read(*parts):
         return fp.read()
 
 
-PACKAGE = "metron"
-NAME = "metron"
-DESCRIPTION = "analytics and metrics integration for Django"
-AUTHOR = "Pinax Team"
-AUTHOR_EMAIL = "team@pinaxproject.com"
-URL = "http://github.com/pinax/metron"
-
-
 setup(
-    author=AUTHOR,
-    author_email=AUTHOR_EMAIL,
-    description=DESCRIPTION,
-    name=PACKAGE,
+    author="Pinax Team",
+    author_email="team@pinaxproject.com",
+    description="analytics and metrics integration for Django",
+    name="pinax-webanalytics",
     long_description=read("README.rst"),
     version="1.3.7",
-    url="http://metron.rtfd.org/",
+    url="http://github.com/pinax/pinax-webanalytics",
     license="MIT",
     packages=find_packages(),
     package_data={
-        "metron": [
-            "templates/metron/_adwords_conversion.html",
-            "templates/metron/_gauges.html",
-            "templates/metron/_google.html",
-            "templates/metron/_mixpanel.html",
+        "pinax.webanalytics": [
+            "templates/pinax/webanalytics/_adwords_conversion.html",
+            "templates/pinax/webanalytics/_gauges.html",
+            "templates/pinax/webanalytics/_google.html",
+            "templates/pinax/webanalytics/_mixpanel.html",
         ]
     },
     test_suite="runtests.runtests",
