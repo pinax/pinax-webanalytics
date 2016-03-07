@@ -16,7 +16,7 @@ setup(
     description="web analytics and metrics integration for Django",
     name="pinax-webanalytics",
     long_description=read("README.rst"),
-    version="2.0.0",
+    version="2.0.1",
     url="http://github.com/pinax/pinax-webanalytics",
     license="MIT",
     packages=find_packages(),
