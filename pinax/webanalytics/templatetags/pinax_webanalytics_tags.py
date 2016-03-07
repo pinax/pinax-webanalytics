@@ -2,7 +2,7 @@ from django import template
 from django.conf import settings
 from django.utils.safestring import mark_safe
 
-from . import activity
+from .. import activity
 
 
 register = template.Library()
