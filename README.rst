@@ -19,18 +19,18 @@ Pinax Web Analytics
 
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg
     :target:  https://pypi.python.org/pypi/pinax-webanalytics/
-    
+
 
 Pinax
 -------
 
-Pinax is an open-source platform built on the Django Web Framework. It is an ecosystem of reusable Django apps, themes, and starter project templates. 
+Pinax is an open-source platform built on the Django Web Framework. It is an ecosystem of reusable Django apps, themes, and starter project templates.
 This collection can be found at http://pinaxproject.com.
 
 This app was developed as part of the Pinax ecosystem but is just a Django app and can be used independently of other Pinax apps.
 
 
-pinax-webanalytics 
+pinax-webanalytics
 --------
 
 ``pinax-webanalytics`` provides analytics and metrics integration for Django.
@@ -47,7 +47,7 @@ Current analytics services supported:
 Documentation
 -------------
 
-The ``pinax-webanalytics`` documentation can be found online at http://pinax-webanalytics.readthedocs.org/.
+The ``pinax-webanalytics`` documentation can be found in the `docs/` directory.
 The Pinax documentation is available at http://pinaxproject.com/pinax/. If you would like to help us improve our documentation or write more documentation, please join our Pinax Project Slack team and let us know!
 
 
@@ -58,7 +58,7 @@ See this blog post http://blog.pinaxproject.com/2016/02/26/recap-february-pinax-
 
 In case of any questions we recommend you join our Pinax Slack team (http://slack.pinaxproject.com) and ping us there instead of creating an issue on GitHub. Creating issues on GitHub is of course also valid but we are usually able to help you faster if you ping us in Slack.
 
-We also highly recommend reading our Open Source and Self-Care blog post (http://blog.pinaxproject.com/2016/01/19/open-source-and-self-care/).  
+We also highly recommend reading our Open Source and Self-Care blog post (http://blog.pinaxproject.com/2016/01/19/open-source-and-self-care/).
 
 
 
@@ -72,6 +72,3 @@ Pinax Project Blog and Twitter
 -------------------------------
 
 For updates and news regarding the Pinax Project, please follow us on Twitter at @pinaxproject and check out our blog http://blog.pinaxproject.com.
-
-
-
