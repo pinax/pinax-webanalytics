@@ -1,5 +1,14 @@
 # ChangeLog
 
+
+## 2.0.2
+
+- corrected broken doc link in README
+
+## 2.0.1
+
+- fixed import path
+
 ## 2.0
 
 - renamed to `pinax-webanalytics`
