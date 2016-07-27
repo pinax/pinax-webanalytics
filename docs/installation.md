@@ -11,7 +11,7 @@ pip install pinax-webanalytics
 ```python
 INSTALLED_APPS = (
     # other apps
-    "pinax-webanalytics",
+    "pinax.webanalytics",
 )
 ```
 
