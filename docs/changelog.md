@@ -1,6 +1,14 @@
 # ChangeLog
 
 
+## 2.0.4
+
+- updated this change log
+
+## 2.0.3
+
+- fixed typo in installation instructions
+
 ## 2.0.2
 
 - corrected broken doc link in README
