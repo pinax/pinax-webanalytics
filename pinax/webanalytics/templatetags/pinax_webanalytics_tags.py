@@ -16,11 +16,11 @@ def analytics(context):
         code = codes.get(int(site_id))
         if code is not None and "user" in context and "request" in context:
             t = template.loader.get_template("pinax/webanalytics/_%s.html" % kind)
-            content += t.render(template.Context({
+            content += t.render({
                 "code": code,
                 "user": context["user"],
                 "actions": activity.all(context["request"], kind)
-            }))
+            })
     return mark_safe(content)
 
 
@@ -30,9 +30,9 @@ def adwords_conversion(context, key):
     page_ids = getattr(settings, "PINAX_WEBANALYTICS_ADWORDS_SETTINGS", {}).get(key)
     if page_ids:
         t = template.loader.get_template("pinax/webanalytics/_adwords_conversion.html")
-        content = t.render(template.Context({
+        content = t.render({
             "conversion_id": page_ids["conversion_id"],
             "conversion_format": page_ids["conversion_format"],
             "conversion_label": page_ids["conversion_label"]
-        }))
+        })
     return mark_safe(content)

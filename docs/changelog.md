@@ -1,5 +1,8 @@
 # ChangeLog
 
+## 3.0.0
+
+- use plain `dict` instead of `template.Context`
 
 ## 2.0.4
 
