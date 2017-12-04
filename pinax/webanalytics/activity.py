@@ -2,7 +2,6 @@ import json
 
 from django.conf import settings
 
-
 SESSION_KEY_NAME = getattr(settings, "PINAX_WEBANALYTICS_ACTIVITY_SESSION_KEY_NAME", "_pwa_activity")
 
 
