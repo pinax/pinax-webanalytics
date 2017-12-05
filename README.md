@@ -30,6 +30,23 @@ Current analytics services supported:
 * gaug.es
 * Google AdWords Conversion Tracking
 
+### Supported Django and Python Versions
+
+* Django 1.8, 1.10, 1.11, and 2.0
+* Python 2.7, 3.4, 3.5, and 3.6
+
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Settings](#settings)
+* [Templates](#templates)
+* [Usage](#usage)
+* [Change Log](#change-log)
+* [Contribute](#contribute)
+* [Code of Conduct](#code-of-conduct)
+* [Pinax Project Blog and Twitter](#pinax-project-blog-and-twitter)
+
 
 ## Installation
 
