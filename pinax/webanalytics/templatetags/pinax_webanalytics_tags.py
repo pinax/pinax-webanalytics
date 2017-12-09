@@ -4,7 +4,6 @@ from django.utils.safestring import mark_safe
 
 from .. import activity
 
-
 register = template.Library()
 
 
