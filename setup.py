@@ -33,12 +33,9 @@ Features
 
 Supported Django and Python Versions
 ------------------------------------
-* Django 1.8, 1.10, 1.11, and 2.0
+* Django 1.11, and 2.0
 * Python 2.7, 3.4, 3.5, and 3.6
 """
-
-
-
 
 setup(
     author="Pinax Team",
@@ -63,8 +60,6 @@ setup(
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
         "Framework :: Django",
-        'Framework :: Django :: 1.8',
-        'Framework :: Django :: 1.10',
         'Framework :: Django :: 1.11',
         'Framework :: Django :: 2.0',
         "Intended Audience :: Developers",
