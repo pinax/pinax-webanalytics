@@ -23,7 +23,7 @@ Pinax Notifications
 .. image:: http://slack.pinaxproject.com/badge.svg
     :target: http://slack.pinaxproject.com/
 
-``pinax-app`` is a useful app for the Django web framework.
+``pinax-webanalytics`` provides analytics and metrics integration for Django.
  
 ``pinax-app`` does this and that.
 
@@ -33,8 +33,13 @@ Features
 
 Supported Django and Python Versions
 ------------------------------------
-* Django 1.11, and 2.0
-* Python 2.7, 3.4, 3.5, and 3.6
++-----------------+-----+-----+-----+-----+
+| Django \ Python | 2.7 | 3.4 | 3.5 | 3.6 |
++=================+=====+=====+=====+=====+
+| 1.11            |  *  |  *  |  *  |  *  |
++-----------------+-----+-----+-----+-----+
+| 2.0             |     |  *  |  *  |  *  |
++-----------------+-----+-----+-----+-----+
 """
 
 setup(
