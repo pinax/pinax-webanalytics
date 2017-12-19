@@ -60,7 +60,11 @@ setup(
             "templates/pinax/webanalytics/_mixpanel.html",
         ]
     },
+    install_requires=[
+    ],
     test_suite="runtests.runtests",
+    tests_require=[
+    ],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
