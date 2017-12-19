@@ -2,8 +2,8 @@
 
 [![](https://img.shields.io/pypi/v/pinax-webanalytics.svg)](https://pypi.python.org/pypi/pinax-webanalytics/)
 
+[![CircleCI](https://img.shields.io/circleci/project/github/pinax/pinax-webanalytics.svg)](https://circleci.com/gh/pinax/pinax-webanalytics)
 [![Codecov](https://img.shields.io/codecov/c/github/pinax/pinax-webanalytics.svg)](https://codecov.io/gh/pinax/pinax-webanalytics)
-[![CircleCI](https://circleci.com/gh/pinax/pinax-webanalytics.svg?style=svg)](https://circleci.com/gh/pinax/pinax-webanalytics)
 ![](https://img.shields.io/github/contributors/pinax/pinax-webanalytics.svg)
 ![](https://img.shields.io/github/issues-pr/pinax/pinax-webanalytics.svg)
 ![](https://img.shields.io/github/issues-pr-closed/pinax/pinax-webanalytics.svg)
