@@ -200,6 +200,10 @@ format.
 
 ## ChangeLog
 
+### 4.0.1
+
+* Fix setup.py LONG_DESCRIPTION for PyPi
+
 ### 4.0.0
 
 * Add Django 2.0 compatibility testing
