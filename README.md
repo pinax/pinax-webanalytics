@@ -198,7 +198,7 @@ where the argument passed to `adwords_conversion` is the key used in
 format.
 
 
-## ChangeLog
+## Change Log
 
 ### 4.0.1
 
