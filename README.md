@@ -1,3 +1,5 @@
+![](http://pinaxproject.com/pinax-design/patches/pinax-webanalytics.svg)
+
 # Pinax Web Analytics
 
 [![](https://img.shields.io/pypi/v/pinax-webanalytics.svg)](https://pypi.python.org/pypi/pinax-webanalytics/)
