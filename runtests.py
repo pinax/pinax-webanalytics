@@ -15,7 +15,6 @@ DEFAULT_SETTINGS = dict(
         "pinax.webanalytics",
         "pinax.webanalytics.tests"
     ],
-    MIDDLEWARE_CLASSES=[],
     DATABASES={
         "default": {
             "ENGINE": "django.db.backends.sqlite3",

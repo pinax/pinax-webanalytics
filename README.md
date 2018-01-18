@@ -202,6 +202,12 @@ format.
 
 ## Change Log
 
+### 4.0.2
+
+* Add django>=1.11 requirement
+* Update CI configuration
+* Improve documentation markup
+
 ### 4.0.1
 
 * Fix setup.py LONG_DESCRIPTION for PyPi

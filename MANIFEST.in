@@ -1,5 +1,4 @@
 include AUTHORS
 include LICENSE
 include README.md
-recursive-include pinax/webanalytics/static *
 recursive-include pinax/webanalytics/templates *

@@ -1,5 +1,6 @@
 from setuptools import find_packages, setup
 
+VERSION = "4.0.2"
 LONG_DESCRIPTION = """
 .. image:: http://pinaxproject.com/pinax-design/patches/pinax-webanalytics.svg
     :target: https://pypi.python.org/pypi/pinax-webanalytics/
@@ -54,7 +55,7 @@ setup(
     description="web analytics and metrics integration for Django",
     name="pinax-webanalytics",
     long_description=LONG_DESCRIPTION,
-    version="4.0.1",
+    version=VERSION,
     url="http://github.com/pinax/pinax-webanalytics",
     license="MIT",
     packages=find_packages(),
@@ -67,6 +68,7 @@ setup(
         ]
     },
     install_requires=[
+        "django>=1.11",
     ],
     test_suite="runtests.runtests",
     tests_require=[
