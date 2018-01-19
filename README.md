@@ -64,8 +64,8 @@ Django \ Python | 2.7 | 3.4 | 3.5 | 3.6
 
 * To install `pinax-webanalytics`:
 
-```
-pip install pinax-webanalytics
+```shell
+$ pip install pinax-webanalytics
 ```
 
 * Add `pinax-webanalytics` to your `INSTALLED_APPS` setting::
@@ -151,13 +151,13 @@ This snippet is used by the `adwords_conversion` template tag
 
 Integrating `pinax-webanalytics` quite simple::
 
-```
+```django
     {% load pinax_webanalytics_tags %}
 ```
 
 and then toward the bottom of the body where you put your scripts:
 
-```
+```django
     {% analytics %}
 ```
 
@@ -185,13 +185,13 @@ will be passed to that javascript API.
 
 Load the template tags as above:
 
-```
+```django
     {% load pinax_webanalytics_tags %}
 ```
 
 then toward the bottom of the body, include:
 
-```
+```django
     {% adwords_conversion "waitinglist" %}
 ```
 
