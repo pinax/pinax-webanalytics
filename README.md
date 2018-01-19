@@ -21,9 +21,9 @@
   * [Supported Django and Python versions](#supported-django-and-python-versions)
 * [Documentation](#documentation)
   * [Installation](#installation)
+  * [Usage](#usage)
   * [Settings](#settings)
   * [Templates](#templates)
-  * [Usage](#usage)
 * [Change Log](#change-log)
 * [Contribute](#contribute)
 * [Code of Conduct](#code-of-conduct)
@@ -79,6 +79,58 @@ INSTALLED_APPS = (
 * See the list of [settings](#settings) to modify pinax-webanalytics's
   default behavior and make adjustments for your website.
   
+### Usage
+
+Integrating `pinax-webanalytics` quite simple::
+
+```django
+    {% load pinax_webanalytics_tags %}
+```
+
+and then toward the bottom of the body where you put your scripts:
+
+```django
+    {% analytics %}
+```
+
+If you want to add certain specific activities you can use the activity
+API in `pinax-webanalytics` like so:
+
+```python
+from pinax.webanalytics import activity
+
+activity.add(request, "mixpanel", "track", "Node Viewed", {
+    "node": self.get_object().title,
+    "user": request.user.username
+})
+```
+
+You would typically want to call this within a view where you had some
+activity you wanted to track that was more transactional than could be
+determined by simply a certain page view.
+
+The parameters for this are the request, the kind, then the method that
+is used on the kind's javascript API, followed by a list of args that
+will be passed to that javascript API.
+
+#### AdWords Conversion Tracking
+
+Load the template tags as above:
+
+```django
+    {% load pinax_webanalytics_tags %}
+```
+
+then toward the bottom of the body, include:
+
+```django
+    {% adwords_conversion "waitinglist" %}
+```
+
+where the argument passed to `adwords_conversion` is the key used in
+`PINAX_WEBANALYTICS_ADWORDS_SETTINGS` to provide the conversion id, label and
+format.
+
 ### Settings
 
 #### PINAX_WEBANALYTICS_ADWORDS_SETTINGS
@@ -145,58 +197,6 @@ This snippet is used for Mixpanel
 #### `_adwords_conversion.html`
 
 This snippet is used by the `adwords_conversion` template tag
-
-### Usage
-
-Integrating `pinax-webanalytics` quite simple::
-
-```django
-    {% load pinax_webanalytics_tags %}
-```
-
-and then toward the bottom of the body where you put your scripts:
-
-```django
-    {% analytics %}
-```
-
-If you want to add certain specific activities you can use the activity
-API in `pinax-webanalytics` like so:
-
-```python
-from pinax.webanalytics import activity
-
-activity.add(request, "mixpanel", "track", "Node Viewed", {
-    "node": self.get_object().title,
-    "user": request.user.username
-})
-```
-
-You would typically want to call this within a view where you had some
-activity you wanted to track that was more transactional than could be
-determined by simply a certain page view.
-
-The parameters for this are the request, the kind, then the method that
-is used on the kind's javascript API, followed by a list of args that
-will be passed to that javascript API.
-
-#### AdWords Conversion Tracking
-
-Load the template tags as above:
-
-```django
-    {% load pinax_webanalytics_tags %}
-```
-
-then toward the bottom of the body, include:
-
-```django
-    {% adwords_conversion "waitinglist" %}
-```
-
-where the argument passed to `adwords_conversion` is the key used in
-`PINAX_WEBANALYTICS_ADWORDS_SETTINGS` to provide the conversion id, label and
-format.
 
 
 ## Change Log
