@@ -60,10 +60,10 @@ setup(
     packages=find_packages(),
     package_data={
         "pinax.webanalytics": [
-            "templates/pinax/webanalytics/_adwords_conversion.html",
-            "templates/pinax/webanalytics/_gauges.html",
-            "templates/pinax/webanalytics/_google.html",
-            "templates/pinax/webanalytics/_mixpanel.html",
+            "templates/webanalytics/_adwords_conversion.html",
+            "templates/webanalytics/_gauges.html",
+            "templates/webanalytics/_google.html",
+            "templates/webanalytics/_mixpanel.html",
         ]
     },
     install_requires=[
