@@ -61,27 +61,27 @@ Django \ Python | 2.7 | 3.4 | 3.5 | 3.6
 
 ### Installation
 
-* To install `pinax-webanalytics`:
+To install pinax-webanalytics:
 
 ```shell
 $ pip install pinax-webanalytics
 ```
 
-* Add `pinax-webanalytics` to your `INSTALLED_APPS` setting::
+Add `pinax.webanalytics` to your `INSTALLED_APPS` setting:
 
 ```python
-INSTALLED_APPS = (
+INSTALLED_APPS = [
     # other apps
     "pinax.webanalytics",
-)
+]
 ```
 
-* See the list of [settings](#settings) to modify pinax-webanalytics's
+See the list of [settings](#settings) to modify pinax-webanalytics's
   default behavior and make adjustments for your website.
   
 ### Usage
 
-Integrating `pinax-webanalytics` quite simple::
+Integrating `pinax-webanalytics` is quite simple:
 
 ```django
     {% load pinax_webanalytics_tags %}
