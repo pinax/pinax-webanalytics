@@ -1,7 +1,0 @@
-[run]
-source = pinax
-omit = pinax/webanalytics/tests/*,pinax/webanalytics/admin.py
-branch = 1
-
-[report]
-omit = pinax/webanalytics/tests/*,pinax/webanalytics/admin.py
